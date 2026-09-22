@@ -1,0 +1,14 @@
+{
+  "name": "smart-budget-ai-classifier",
+  "version": "1.0.0",
+  "description": "AI model integration for Smart Budget Assistant: zero-shot expense categorization using a public Hugging Face model via transformers.js. No API key.",
+  "type": "module",
+  "main": "classify.mjs",
+  "scripts": {
+    "start": "node classify.mjs",
+    "demo": "node classify.mjs --demo"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2"
+  }
+}
